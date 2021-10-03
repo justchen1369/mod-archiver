@@ -6,6 +6,8 @@ This repository serves as a collection of a few scripts that are helpful in arch
 - sha1sum
 - aria2c
 
+# Environment variables
+- `authQueryString` should be set to `"?username=[insert username here]&token=[insert token here]"`
 # Usage
 1. `node get-full-descriptions.js` Get extended mod descriptions, which is necessary to get mod release download urls.
 2. `node write-aria2c.js` Write an aria2c download list.
